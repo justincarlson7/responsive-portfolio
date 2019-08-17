@@ -1,3 +1,5 @@
+/* Largest CSS */
+
 a {
   text-decoration: none;
   color: #000000;
@@ -142,7 +144,7 @@ body {
 }
 
 #portfoliobox {
-  height: 650px;
+  height: 725px;
 
   padding-right: 10px;
   padding-bottom: 10px;
@@ -234,4 +236,720 @@ h1 {
   font-size: 14px;
   font-style: normal;
   font-weight: bold;
+}
+
+/* 980 px size */
+
+@media screen and (max-width: 980px) {
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .name {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .navtext {
+    text-decoration: none;
+    color: #8a8989;
+    float: right;
+    padding: 5px;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: #ebe715;
+
+    position: relative;
+  }
+
+  .topleft {
+    float: left;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    background: rgb(2, 110, 138);
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin-left: 10%;
+
+    border-style: solid;
+    border-bottom: #00000052;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .topright {
+    float: right;
+
+    width: 200px%;
+    height: 50px;
+    position: relative;
+    background: #ffffff;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 10%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url("../images/paper.jpg");
+  }
+
+  #jc_pic {
+    width: 175px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  /* #bio {
+  float: left;
+  width: 660px;
+  height: 60px;
+  padding: 19px;
+  color: #000000;
+  text-align: center;
+} */
+
+  #aboutMe {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.171);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #mainbox {
+    height: 600px;
+    width: 60%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #mainText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  #contactform {
+    height: 500px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #portfoliobox {
+    height: 725px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #Me {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.637);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  #form1 {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-picture {
+    position: absolute;
+    margin: 0 auto;
+    width: 167px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 70%;
+    background-color: rgb(2, 110, 138);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+/* 768 px size */
+@media screen and (max-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .name {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .navtext {
+    text-decoration: none;
+    color: #8a8989;
+    float: right;
+    padding: 5px;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: #eb1515;
+
+    position: relative;
+  }
+
+  .topleft {
+    float: left;
+    width: 145px;
+    height: 50px;
+    position: relative;
+    background: rgb(2, 110, 138);
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    margin-left: 10%;
+
+    border-style: solid;
+    border-bottom: #00000052;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .topright {
+    float: right;
+
+    width: 145px%;
+    height: 50px;
+    position: relative;
+    background: #ffffff;
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 10%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url("../images/paper.jpg");
+  }
+
+  #jc_pic {
+    width: 175px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  /* #bio {
+    float: left;
+    width: 660px;
+    height: 60px;
+    padding: 19px;
+    color: #000000;
+    text-align: center;
+  } */
+
+  #aboutMe {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.171);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #mainbox {
+    height: 850px;
+    width: 60%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #mainText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  #contactform {
+    height: 500px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #portfoliobox {
+    height: 725px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #Me {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.637);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  #form1 {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-picture {
+    position: absolute;
+    margin: 0 auto;
+    width: 167px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 70%;
+    background-color: rgb(2, 110, 138);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+  }
+}
+/* 640 px size */
+@media screen and (max-width: 640px) {
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .name {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .navtext {
+    text-decoration: none;
+    color: #8a8989;
+    text-align: center;
+    padding: 5px;
+  }
+
+
+  .topleft {
+    /* float: left; */
+    /* width: 100%; */
+    height: 50px;
+    position: relative;
+    background: rgb(2, 110, 138);
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    /* margin-left: 10%; */
+
+    border-style: solid;
+    border-bottom: #00000052;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .topright {
+
+    /* width: 100%; */
+    height: 50px;
+    position: relative;
+    background: #ffffff;
+
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url("../images/paper.jpg");
+  }
+
+  #jc_pic {
+    width: 200px;
+    /* float: left; */
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    padding-left: 20%;
+  }
+
+  /* #bio {
+      float: left;
+      width: 660px;
+      height: 60px;
+      padding: 19px;
+      color: #000000;
+      text-align: center;
+    }
+     */
+  #aboutMe {
+    padding-top: 10px;
+    /* padding-left: 20px; */
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.171);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #mainbox {
+    height: 850px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #mainText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  #contactform {
+    height: 500px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #portfoliobox {
+    height: 725px;
+
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background: #ffffff;
+    line-height: 20px;
+  }
+
+  #Me {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(46, 45, 45, 0.637);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  #form1 {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    background-color: white;
+    padding: 10px;
+
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-picture {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 70%;
+    background-color: rgb(2, 110, 138);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+  }
 }
