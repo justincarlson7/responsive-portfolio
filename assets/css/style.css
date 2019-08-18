@@ -51,7 +51,7 @@ a {
 .topright {
   float: right;
 
-  width: 300px;
+  width: 40%;
   height: 50px;
   position: relative;
   background: #ffffff;
@@ -82,28 +82,7 @@ body {
   padding-left: 10px;
 }
 
-#bio {
-  float: left;
-  width: 660px;
-  height: 60px;
-  padding: 19px;
-  color: #000000;
-  text-align: center;
-}
 
-#aboutMe {
-  padding-top: 20px;
-  padding-left: 20px;
-
-  padding-bottom: 10px;
-  border-bottom: 2px solid rgba(46, 45, 45, 0.171);
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: bold;
-  text-decoration: none;
-}
 
 #mainbox {
   height: 500px;
@@ -131,7 +110,8 @@ body {
 
 #contactform {
   height: 500px;
-
+  position: relative;
+  width: 75%;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -160,7 +140,7 @@ body {
 #Me {
   padding-top: 20px;
   padding-left: 20px;
-
+  position: relative;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(46, 45, 45, 0.637);
 
@@ -175,7 +155,8 @@ body {
 #form1 {
   padding-top: 20px;
   padding-left: 20px;
-
+  position: absolute;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -188,54 +169,25 @@ h1 {
   font-size: 50px;
   word-break: break-all;
 }
-
-.row {
-  margin: 8px -16px;
-}
-
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-.column {
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
   float: left;
-  width: 25%;
+  width: 180px;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-.content {
-  background-color: white;
-  padding: 10px;
-
-  position: relative;
-  display: inline-block;
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-.text-picture {
-  position: absolute;
-  margin: 0 auto;
-  width: 167px;
-  left: 0;
-  right: 0;
+div.desc {
+  padding: 15px;
   text-align: center;
-  top: 70%;
-  background-color: rgb(2, 110, 138);
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: bold;
 }
 
 /* 980 px size */
@@ -261,7 +213,7 @@ h1 {
   .header {
     width: 100%;
     height: 80px;
-    background-color: #ebe715;
+    background-color: #FFFFFF;
 
     position: relative;
   }
@@ -292,7 +244,7 @@ h1 {
   .topright {
     float: right;
 
-    width: 200px%;
+    width: 40%;
     height: 50px;
     position: relative;
     background: #ffffff;
@@ -323,15 +275,7 @@ h1 {
     padding-left: 10px;
   }
 
-  /* #bio {
-  float: left;
-  width: 660px;
-  height: 60px;
-  padding: 19px;
-  color: #000000;
-  text-align: center;
-} */
-
+ 
   #aboutMe {
     padding-top: 20px;
     padding-left: 20px;
@@ -372,7 +316,8 @@ h1 {
 
   #contactform {
     height: 500px;
-
+    position: relative;
+    width: 75%;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -385,7 +330,7 @@ h1 {
   }
 
   #portfoliobox {
-    height: 725px;
+    height: 975px;
 
     padding-right: 10px;
     padding-bottom: 10px;
@@ -401,7 +346,7 @@ h1 {
   #Me {
     padding-top: 20px;
     padding-left: 20px;
-
+position: relative;
     padding-bottom: 10px;
     border-bottom: 2px solid rgba(46, 45, 45, 0.637);
 
@@ -416,7 +361,8 @@ h1 {
   #form1 {
     padding-top: 20px;
     padding-left: 20px;
-
+    position: absolute;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -499,23 +445,25 @@ h1 {
   }
 
   .header {
+    
     width: 100%;
-    height: 80px;
-    background-color: #eb1515;
+
+    height: 50px;
+    background-color: #ffffff;
 
     position: relative;
   }
 
   .topleft {
-    float: left;
-    width: 145px;
-    height: 50px;
-    position: relative;
+   
+   position: relative;
+    height: 35px;
+    
     background: rgb(2, 110, 138);
-    padding-top: 30px;
+    padding-top: 15px;
     padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 30px;
+    padding-left: 15px;
     margin-left: 10%;
 
     border-style: solid;
@@ -530,15 +478,15 @@ h1 {
   }
 
   .topright {
-    float: right;
+   
 
-    width: 145px%;
-    height: 50px;
-    position: relative;
+    width: 33%;
+    height: 35px;
+   
     background: #ffffff;
 
-    padding-top: 30px;
-    padding-right: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
     padding-bottom: 0px;
     padding-left: 0px;
     margin-right: 10%;
@@ -563,15 +511,7 @@ h1 {
     padding-left: 10px;
   }
 
-  /* #bio {
-    float: left;
-    width: 660px;
-    height: 60px;
-    padding: 19px;
-    color: #000000;
-    text-align: center;
-  } */
-
+ 
   #aboutMe {
     padding-top: 20px;
     padding-left: 20px;
@@ -612,7 +552,8 @@ h1 {
 
   #contactform {
     height: 500px;
-
+    position: relative;
+    width: 75%;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -625,7 +566,7 @@ h1 {
   }
 
   #portfoliobox {
-    height: 725px;
+    height: 975px;
 
     padding-right: 10px;
     padding-bottom: 10px;
@@ -641,7 +582,7 @@ h1 {
   #Me {
     padding-top: 20px;
     padding-left: 20px;
-
+    position: relative;
     padding-bottom: 10px;
     border-bottom: 2px solid rgba(46, 45, 45, 0.637);
 
@@ -656,7 +597,8 @@ h1 {
   #form1 {
     padding-top: 20px;
     padding-left: 20px;
-
+    position: absolute;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -665,11 +607,33 @@ h1 {
     text-decoration: none;
   }
 
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+/* 
   h1 {
     font-size: 50px;
     word-break: break-all;
-  }
-
+  } */
+/* 
   .row {
     margin: 8px -16px;
   }
@@ -717,7 +681,7 @@ h1 {
     font-size: 14px;
     font-style: normal;
     font-weight: bold;
-  }
+  } */
 }
 /* 640 px size */
 @media screen and (max-width: 640px) {
@@ -740,21 +704,28 @@ h1 {
     padding: 5px;
   }
 
+  .header {
+    
+    /* width: 100%; */
+
+    height: 50px;
+    background-color: #ffffff;
+/* 
+    position: relative; */
+  }
 
   .topleft {
-    /* float: left; */
-    /* width: 100%; */
-    height: 50px;
-    position: relative;
+    
+    width: 100%;
     background: rgb(2, 110, 138);
-    padding-top: 10px;
+
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
-    /* margin-left: 10%; */
+   margin-right: 0%;
 
-    border-style: solid;
-    border-bottom: #00000052;
+    
+    
 
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -765,24 +736,25 @@ h1 {
   }
 
   .topright {
-
-    /* width: 100%; */
-    height: 50px;
-    position: relative;
+    width: 100%;
+    height: 40px;
+    
     background: #ffffff;
 
-    padding-top: 5px;
-    padding-right: 0px;
+    padding-top: 15px;
+  
     padding-bottom: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
+   
+   margin-right: 0%;
+    margin-bottom: 0px;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
-  }
+    text-align: center!important;
+  } 
 
   body {
     background-image: url("../images/paper.jpg");
@@ -790,35 +762,14 @@ h1 {
 
   #jc_pic {
     width: 200px;
-    /* float: left; */
+   
     padding-top: 20px;
     padding-right: 20%;
     padding-bottom: 20px;
     padding-left: 20%;
   }
 
-  /* #bio {
-      float: left;
-      width: 660px;
-      height: 60px;
-      padding: 19px;
-      color: #000000;
-      text-align: center;
-    }
-     */
-  #aboutMe {
-    padding-top: 10px;
-    /* padding-left: 20px; */
-
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgba(46, 45, 45, 0.171);
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: none;
-  }
+  
 
   #mainbox {
     height: 850px;
@@ -846,7 +797,8 @@ h1 {
 
   #contactform {
     height: 500px;
-
+    position: relative;
+    width: 75%;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -859,7 +811,7 @@ h1 {
   }
 
   #portfoliobox {
-    height: 725px;
+    height: 1300px;
 
     padding-right: 10px;
     padding-bottom: 10px;
@@ -873,9 +825,11 @@ h1 {
   }
 
   #Me {
-    padding-top: 20px;
+   
+   margin-top: 40px;
+    /* padding-top: 20px;
     padding-left: 20px;
-
+    position: relative; */
     padding-bottom: 10px;
     border-bottom: 2px solid rgba(46, 45, 45, 0.637);
 
@@ -890,7 +844,8 @@ h1 {
   #form1 {
     padding-top: 20px;
     padding-left: 20px;
-
+    position: absolute;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
